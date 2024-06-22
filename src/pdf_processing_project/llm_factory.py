@@ -21,7 +21,7 @@ class LLMFactory:
 
 class OpenAIModel:
     def query(self, prompt):
-        client_instance = OpenAI(api_key="sk-proj-wArwr43J6QesRS9KSQZsT3BlbkFJXWOdC1IwbAjhBT525iCJ")
+        client_instance = OpenAI(api_key="")
         
         response = client_instance.chat.completions.create(
             model="gpt-3.5-turbo",
