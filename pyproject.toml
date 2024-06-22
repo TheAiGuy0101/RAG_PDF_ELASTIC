@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf_processing_project"
+version = "0.1.0"
+description = "A multi-agent platform for processing large PDF files using CrewAI."
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+    "crewai",
+    "PyPDF2",
+    "elasticsearch",
+    "streamlit",
+    "openai",
+    "pyyaml",
+    "pytesseract",
+    "Pillow",
+    "pdf2image",
+    "transformers",
+    "torch"
+]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.setuptools.package-data]
+"src.pdf_processing_project" = ["config/*.yaml", "tools/*.py"]

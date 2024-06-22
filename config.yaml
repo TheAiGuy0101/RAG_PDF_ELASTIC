@@ -1,0 +1,4 @@
+llm_model: "openai"  # Options: openai, llama3, other
+openai_api_key: ""
+llama3_api_key: "your_llama3_api_key"
+elasticsearch_url: "http://localhost:9200"

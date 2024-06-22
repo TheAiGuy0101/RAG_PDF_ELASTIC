@@ -1,0 +1,10 @@
+extract_text_task:
+  description: >
+    Extract text from the given PDF file and store it in Elasticsearch.
+    Ensure the text is split into manageable chunks for efficient querying.
+    Use OCR to extract text from images if necessary.
+  expected_output: >
+    Text data stored in Elasticsearch with appropriate indexing.
+  tools:
+    - llama_tool
+  agent: pdf_processor
