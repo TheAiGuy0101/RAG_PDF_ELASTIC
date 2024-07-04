@@ -17,8 +17,8 @@ The PDF Processing Project is a multi-agent platform built using CrewAI to proce
 1. **Clone the repository**
 
 
-git clone https://github.com/yourusername/pdf_processing_project.git
-cd pdf_processing_project
+[git clone https://github.com/yourusername/pdf_processing_project.git](https://github.com/TheAiGuy0101/RAG_PDF_ELASTIC.git)
+cd RAG_PDF_ELASTIC
 
 2. **Setup & Configuration**
     Create Python Environment
