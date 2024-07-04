@@ -12,24 +12,6 @@ The PDF Processing Project is a multi-agent platform built using CrewAI to proce
 - **Elasticsearch Indexing**: Stores and indexes extracted text for efficient querying.
 - **Interactive UI**: Provides a Streamlit application for easy interaction with the platform.
 
-## Project Structure
-
-pdf_processing_project/
-├── config.yaml
-├── requirements.txt
-├── README.md
-├── src/
-│ └── pdf_processing_project/
-│ ├── init.py
-│ ├── main.py
-│ ├── llm_factory.py
-│ ├── tools/
-│ └── custom_tool.py
-│ ├── config/
-│ ├── agents.yaml
-│ └── tasks.yaml
-
-
 ### Installation
 
 1. **Clone the repository**
